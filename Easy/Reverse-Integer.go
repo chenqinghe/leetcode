@@ -1,19 +1,11 @@
-package main
+package leetcode
 
 import (
-	"fmt"
 	"math"
 	"strconv"
 )
 
-func main() {
-	var a int = 1000000003
-
-	fmt.Println(reverse(a))
-	fmt.Println(math.MinInt32, math.MaxInt32)
-}
-
-func reverse(x int) int {
+func Reverse(x int) int {
 	neg := false
 	if x < 0 {
 		neg = true
