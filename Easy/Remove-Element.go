@@ -1,5 +1,7 @@
 package leetcode
 
+import "fmt"
+
 //时间复杂度：O(n)
 //空间复杂度: O(1)
 func RemoveElement(nums []int, val int) int {
@@ -11,5 +13,7 @@ func RemoveElement(nums []int, val int) int {
 			index++
 		}
 	}
+	nums = nums[:index] //删除后面元素
+	fmt.Println(nums)
 	return index
 }
