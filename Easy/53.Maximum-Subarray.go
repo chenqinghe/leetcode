@@ -5,7 +5,7 @@ func MaxSubArray(nums []int) int {
 
 	//-------------way 1-------------------
 	////思路：从头尾向中部“夹逼”
-	
+
 	//l := len(nums)
 	//if l <= 1 {
 	//	return nums[0]
