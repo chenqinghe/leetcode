@@ -7,5 +7,5 @@ func TestMergeSortedArray(t *testing.T) {
 }
 
 func TestMergeSortedArray2(t *testing.T) {
-	MergeSortedArray([]int{0}, 1, []int{1}, 1)
+	MergeSortedArray([]int{0}, 0, []int{1}, 1)
 }
